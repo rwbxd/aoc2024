@@ -57,6 +57,7 @@ def part2(text):
         while l_index < r_index:
             while file_system[l_index] != '.':
                 l_index += 1
+            if l_index > r_index: break
             # Start check of new segment
             start_l_index = l_index
             l_count = 0
