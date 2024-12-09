@@ -1,6 +1,4 @@
 from real_inputs.day_7 import real_input
-import functools
-import operator
 
 test_input = """190: 10 19
 3267: 81 40 27
